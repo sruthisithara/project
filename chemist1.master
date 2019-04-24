@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="chemist1.master.cs" Inherits="chemist1" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+   
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <title>Alpha Antibiotics and Biologicals Pvt. Ltd.</title>
+<link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+</head>
+<body>
+<div class="wrap" >
+  <div class="wrapper-box">
+	<div class="header">
+		<div class="header-top">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=""/></a>
+			</div>
+			
+			<div class="clear"></div> 
+		</div>
+		<div class="header-bottom">
+			<div id="cssmenu">
+				<ul>
+                <li class="active"><a href="index.html"><span>HOME</span></a></li>
+                
+                 
+                    <li class="has-sub"><a href="chem_view_medicine.aspx"><span>VIEW MEDICINES</span></a>
+				     
+				  <li><a href="chem_view_allotment.aspx"><span>VIEW ALLOTMENT</span></a></li>
+                 <li><a href="report.aspx"><span>REPORT</span></a></li>
+				   <li><a href="index.aspx"><span>LOGOUT</span></a></li>
+				</ul>
+			</div>
+				<ul class="follow_icon">
+					<li><a href="#" style="opacity: 1;"><img src="images/facebook.png" alt=""></a></li>
+					<li><a href="#" style="opacity: 1;"><img src="images/feed.png" alt=""></a></li>
+					<li><a href="#" style="opacity: 1;"><img src="images/twitter.png" alt=""></a></li>
+				</ul>
+				<div class="clear"></div> 
+		</div>
+	</div>
+	<div >
+	
+                 
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

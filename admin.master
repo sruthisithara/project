@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="admin" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+   
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <title>Alpha Antibiotics and Biologicals Pvt. Ltd.</title>
+<link href="css/style1.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+</head>
+<body>
+<div class="wrap" >
+  <div class="wrapper-box">
+	<div class="header">
+		<div class="header-top">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=""/></a>
+			</div>
+			
+			<div class="clear"></div> 
+		</div>
+		<div class="header-bottom">
+			<div id="cssmenu">
+				<ul>
+                <li class="active"><a href="index.html"><span>HOME</span></a></li>
+                <li class="has-sub"><a href=""><span>PRODUCT</span></a>
+				      <ul>
+				         <li class="has-sub"><a href="add_product.aspx"><span>ADD PRODUCT</span></a></li>
+				         <li class="has-sub"><a href="remove_product.aspx"><span>CHANGE PRODUCT</span></a></li>
+				      </ul>
+				   </li>
+                   <li class="has-sub"><a href=""><span>STOCK</span></a>
+				      <ul>
+				         <li class="has-sub"><a href="add_stock.aspx"><span>ADD STOCK</span></a></li>
+				         <li class="has-sub"><a href="remove_stock.aspx"><span>REMOVE STOCK</span></a></li>
+                       
+				      </ul>
+				   </li>
+                   <li class="has-sub"><a href=""><span>DISTRIBUTOR</span></a>
+				      <ul>
+				         <li class="has-sub"><a href="add_distributor.aspx"><span>ADD</span></a></li>
+				         <li class="has-sub"><a href="remove_distributor.aspx"><span>REMOVE</span></a></li>
+                      </ul>
+				   </li>
+                    <li><a href="view_dis_request.aspx"><span>REQUEST</span></a></li>
+				   <li><a href="index.aspx"><span>LOGOUT</span></a></li>
+				</ul>
+			</div>
+				<ul class="follow_icon">
+					<li><a href="#" style="opacity: 1;"><img src="images/facebook.png" alt=""></a></li>
+					<li><a href="#" style="opacity: 1;"><img src="images/feed.png" alt=""></a></li>
+					<li><a href="#" style="opacity: 1;"><img src="images/twitter.png" alt=""></a></li>
+				</ul>
+				<div class="clear"></div> 
+		</div>
+	</div>
+	<div >
+	<div class="main">
+		<div class="section group">
+				<br><br><br>
+				<div class="lg-container">
+				  <div class="contact-form">
+                 
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
